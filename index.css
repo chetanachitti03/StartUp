@@ -1,0 +1,85 @@
+/* General styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    scroll-behavior: smooth;
+    background-image: url(Images/BG\ 5.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(Images/BG\ 2.jpg);
+    background-size: cover;
+    color: white;
+  }
+  
+  header img {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%; /* Makes the logo spherical */
+    display: flex;
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-image: url(Images/BG\ 5.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-image: url(Images/BG\ 2.jpg);
+
+    color: white;
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+  marquee {
+    font-size: 18px;
+    color: #a31111;
+    white-space: nowrap; /* Prevents wrapping of text */
+    overflow: hidden;
+}
+.container li{
+  text-align: center;
+}
